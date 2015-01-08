@@ -7,7 +7,7 @@ local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 #local git_branch='$(git_prompt_info)%{$reset_color%}'
 #local git_status='$(git_super_status)'
 
-local shell_powerline='$(~/.bash/bundle/powerline-shell/powerline-shell.py --mode flat --shell zsh $? 2> /dev/null)%{$reset_color%}'
+local shell_powerline='$(~/bin/powerline-shell.py --mode flat --shell zsh $? 2> /dev/null)%{$reset_color%}'
 
 PROMPT="
 ${shell_powerline}"
