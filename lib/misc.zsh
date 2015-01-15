@@ -10,6 +10,6 @@ setopt long_list_jobs
 
 ## pager
 export PAGER="less"
-export LESS="-R"
+export LESS="-FRSX"
 
 export LC_CTYPE=$LANG
